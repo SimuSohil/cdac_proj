@@ -19,13 +19,30 @@ class _HomeScreenState extends State<HomeScreen> {
     const VishingPage(),
     const CallLogsScreen(),
     const ContactsPage(),
-    // const LogsClass(),
   ];
+
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Anti-Vishing Application', style: TextStyle(fontWeight: FontWeight.w400, color: Color(0xffFFFFFF)),), backgroundColor: Color(0xff4E66AB),),
+      appBar: AppBar(
+        key: _scaffoldKey,
+        backgroundColor: const Color(0xff4E66AB),
+        title: const Text(
+          'Anti-Vishing Application', 
+          style: TextStyle(fontWeight: FontWeight.w400, color: Color(0xffFFFFFF)),
+        ), 
+        leading: IconButton(onPressed: (){_scaffoldKey.currentState?.openDrawer();}, icon: const Icon(Icons.menu, color: Color(0xffFFFFFF),)),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          children: const <Widget>[
+            ListTile(title: Text('Contacts'),),
+            ListTile(title: Text('Settings'),),
+          ],
+        ),
+      ),
       body: _widgetOptions[_currentPage],
       bottomNavigationBar: ConvexAppBar(
         backgroundColor: const Color(0xff4E66AB),
