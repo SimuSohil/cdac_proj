@@ -38,8 +38,8 @@ class _HomeScreenState extends State<HomeScreen> {
       drawer: Drawer(
         child: ListView(
           children: const <Widget>[
-            ListTile(title: Text('Contacts'),),
-            ListTile(title: Text('Settings'),),
+            ListTile(title: Text('Contacts'), style: ListTileStyle.drawer,),
+            ListTile(title: Text('Settings'), style: ListTileStyle.drawer,),
           ],
         ),
       ),
