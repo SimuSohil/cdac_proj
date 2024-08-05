@@ -200,19 +200,19 @@ class PhoneStateBackgroundHandler {
   }
 }
 
-Future<bool> reportSpamNumber(String phoneNumber) async {
-  // Define your spam numbers list
-  // List<String> scamNumbers = ['1234567890', '0987654321']; // Example numbers
+// Future<bool> reportSpamNumber(String phoneNumber) async {
+//   // Define your spam numbers list
+//   // List<String> scamNumbers = ['1234567890', '0987654321']; // Example numbers
   
-  String normalizedPhoneNumber = PhoneStateBackgroundHandler.normalizePhoneNumber(phoneNumber);
-  bool isScam = scamNumbers.any((number) =>
-      PhoneStateBackgroundHandler.normalizePhoneNumber(number) == normalizedPhoneNumber);
+//   String normalizedPhoneNumber = PhoneStateBackgroundHandler.normalizePhoneNumber(phoneNumber);
+//   bool isScam = scamNumbers.any((number) =>
+//       PhoneStateBackgroundHandler.normalizePhoneNumber(number) == normalizedPhoneNumber);
 
-  if (isScam) {
-    log('This number ($phoneNumber) is reported as a scam!');
-  } else {
-    log('This number ($phoneNumber) is not currently on the blacklist.');
-  }
+//   if (isScam) {
+//     log('This number ($phoneNumber) is reported as a scam!');
+//   } else {
+//     log('This number ($phoneNumber) is not currently on the blacklist.');
+//   }
 
-  return isScam;
-}
+//   return isScam;
+// }

@@ -12,22 +12,35 @@ String normalizePhoneNumber(String phoneNumber) {
   return phoneNumber;
 }
 
+// Sample List for Global Blacklist
 List<String> scamNumbers = [
   "+919360468002",
   "+442034567890",
   "+919345673812",
-]; // Replace with your actual list
+]; 
 
+// Sample List for Global Whitelist
 List<String> whiteListNumbers = [
   "+919876543210",
   "+441234567890",
   "+919012345678",
-]; // Replace with your actual whitelist numbers
+]; 
 
-Future<void> reportSpamNumber(String phoneNumber) async {
+Future<bool> reportSpamNumber(String phoneNumber) async {
   String normalizedPhoneNumber = normalizePhoneNumber(phoneNumber);
-  bool isScam = scamNumbers.any((number) => normalizePhoneNumber(number) == normalizedPhoneNumber);
-  bool isWhiteListed = whiteListNumbers.any((number) => normalizePhoneNumber(number) == normalizedPhoneNumber);
+  log('Normalized phone number: $normalizedPhoneNumber');
+
+  bool isScam = scamNumbers.any((number) {
+    String normalizedScamNumber = normalizePhoneNumber(number);
+    log('Comparing with scam number: $normalizedScamNumber');
+    return normalizedScamNumber == normalizedPhoneNumber;
+  });
+
+  bool isWhiteListed = whiteListNumbers.any((number) {
+    String normalizedWhiteListNumber = normalizePhoneNumber(number);
+    log('Comparing with whitelist number: $normalizedWhiteListNumber');
+    return normalizedWhiteListNumber == normalizedPhoneNumber;
+  });
 
   if (isWhiteListed) {
     log('This number ($phoneNumber) is in your whitelist.');
@@ -36,10 +49,12 @@ Future<void> reportSpamNumber(String phoneNumber) async {
   } else {
     log('This number ($phoneNumber) is not currently on the blacklist or whitelist.');
   }
+
+  return isScam;
 }
 
 // Example usage
-// void main() {
-//   String incomingNumber = '+919012345678';
-//   reportSpamNumber(incomingNumber);
-// }
+void main() {
+  String incomingNumber = '+919012345678';
+  reportSpamNumber(incomingNumber);
+}
