@@ -40,14 +40,33 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       drawer: Drawer(
-        child: ListView(
-          children: const <Widget>[
-            ListTile(
-              title: Text('Contacts'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Expanded(
+              child: ListView(
+                children: const <Widget>[
+                  DrawerHeader(decoration: BoxDecoration(color: Color(0xff5F67B1)),child: Text('User Details', style: TextStyle(fontWeight: FontWeight.bold),),),
+                  ListTile(
+                    leading: Icon(Icons.perm_contact_cal_sharp),
+                    title: Text('Profile'),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.settings),
+                    title: Text('Settings'),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.info_outline),
+                    title: Text('About'),
+                  ),
+                  Divider()
+                ],
+              ),
             ),
-            ListTile(
-              title: Text('Settings'),
-            ),
+            const ListTile(
+              leading: Icon(Icons.logout),
+              title: Text('Logout'),
+            )
           ],
         ),
       ),
