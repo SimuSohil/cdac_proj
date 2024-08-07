@@ -13,69 +13,69 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/debug/AndroidManifest.xml:6:5-66
-15-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/debug/AndroidManifest.xml:6:22-64
+15-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-16-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:3:5-75
-16-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:3:22-72
+16-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:3:5-75
+16-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:3:22-72
 17    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-17-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:4:5-72
-17-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:4:22-69
+17-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:4:5-72
+17-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:4:22-69
 18    <uses-permission android:name="android.permission.READ_CONTACTS" />
-18-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:5:5-72
-18-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:5:22-69
+18-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:5:5-72
+18-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:5:22-69
 19    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-19-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:6:5-73
-19-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:6:22-70
+19-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:6:5-73
+19-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:6:22-70
 20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-20-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:7:5-81
-20-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:7:22-78
+20-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:7:5-81
+20-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:7:22-78
 21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-21-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:8:5-77
-21-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:8:22-74
+21-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:8:5-77
+21-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:8:22-74
 22    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
-22-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:9:5-77
-22-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:9:22-74
+22-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:9:5-77
+22-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:9:22-74
 23
 24    <queries>
-24-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:48:5-53:15
+24-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:48:5-53:15
 25        <intent>
-25-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:49:9-52:18
+25-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:49:9-52:18
 26            <action android:name="android.intent.action.PROCESS_TEXT" />
-26-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:50:13-72
-26-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:50:21-70
+26-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:50:13-72
+26-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:50:21-70
 27
 28            <data android:mimeType="text/plain" />
-28-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:51:13-50
-28-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:51:19-48
+28-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:51:13-50
+28-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:51:19-48
 29        </intent>
 30        <intent>
-30-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+30-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 31            <action android:name="android.accounts.AccountAuthenticator" />
-31-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-76
-31-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-73
+31-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-76
+31-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-73
 32        </intent> <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
 33        <intent>
-33-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-21:18
+33-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-21:18
 34            <action android:name="android.intent.action.VIEW" />
-34-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
-34-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-62
+34-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+34-->[:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-62
 35
 36            <data
-36-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:51:13-50
+36-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:51:13-50
 37                android:host="com.android.contacts"
 38                android:mimeType="vnd.android.cursor.item/*"
-38-->/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/AndroidManifest.xml:51:19-48
+38-->/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:51:19-48
 39                android:scheme="content" />
 40        </intent>
 41    </queries>
 42
 43    <uses-permission android:name="android.permission.VIBRATE" />
-43-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
-43-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+43-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+43-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
 44    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-44-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
-44-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+44-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+44-->[:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
 45
 46    <permission
 46-->[androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47

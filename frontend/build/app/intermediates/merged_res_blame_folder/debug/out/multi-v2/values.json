@@ -4,6 +4,25 @@
             "outputFile": "com.example.cdac_design.app-mergeDebugResources-26:/values/values.xml",
             "map": [
                 {
+                    "source": "/Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "163,167",
+                        "startColumns": "4,4",
+                        "startOffsets": "8399,8580",
+                        "endLines": "166,169",
+                        "endColumns": "12,12",
+                        "endOffsets": "8575,8744"
+                    }
+                },
+                {
                     "source": "/Users/simusohil/.gradle/caches/transforms-3/c683cde5b1f5377825fe27da54e1b718/transformed/fragment-1.7.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -20,25 +39,6 @@
                         "endLines": "126,130,151,273,277",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "6292,6469,7599,13462,13611"
-                    }
-                },
-                {
-                    "source": "/Users/simusohil/Developer/Internship/cdac_design/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "163,167",
-                        "startColumns": "4,4",
-                        "startOffsets": "8399,8580",
-                        "endLines": "166,169",
-                        "endColumns": "12,12",
-                        "endOffsets": "8575,8744"
                     }
                 },
                 {
