@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/drawable/notification_bg.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/drawable/notification_icon_background.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/drawable/notification_tile_bg.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/drawable/notification_bg_low.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/drawable/notification_bg_low.xml"
+    }
+]

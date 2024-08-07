@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/animator/fragment_open_enter.xml",
+        "source": "sk.fourq.calllog.call_log-fragment-1.7.1-14:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/animator/fragment_fade_enter.xml",
+        "source": "sk.fourq.calllog.call_log-fragment-1.7.1-14:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/animator/fragment_close_exit.xml",
+        "source": "sk.fourq.calllog.call_log-fragment-1.7.1-14:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/animator/fragment_open_exit.xml",
+        "source": "sk.fourq.calllog.call_log-fragment-1.7.1-14:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/animator/fragment_fade_exit.xml",
+        "source": "sk.fourq.calllog.call_log-fragment-1.7.1-14:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/animator/fragment_close_enter.xml",
+        "source": "sk.fourq.calllog.call_log-fragment-1.7.1-14:/animator/fragment_close_enter.xml"
+    }
+]

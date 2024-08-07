@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/notification_action.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/notification_action.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/custom_dialog.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/notification_template_icon_group.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/ime_secondary_split_test_activity.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/notification_action_tombstone.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/ime_base_split_test_activity.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/notification_template_part_chronometer.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/notification_template_custom_big.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "sk.fourq.calllog.call_log-merged_res-26:/layout/notification_template_part_time.xml",
+        "source": "sk.fourq.calllog.call_log-core-1.13.1-19:/layout/notification_template_part_time.xml"
+    }
+]
