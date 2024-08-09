@@ -1,12 +1,30 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:developer';
+import 'dart:io';
+import 'package:path_provider/path_provider.dart';
 import 'package:contacts_service/contacts_service.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:phone_state_background/phone_state_background.dart';
 import 'spam_num_verify.dart';
+import 'alert_box.dart';
+import 'package:flutter_overlay_window/flutter_overlay_window.dart' as alert;
+
+final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 @pragma('vm:entry-point')
+void overlayMain() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: AlertBoxSection(),
+    ),
+  );
+}
 Future<void> phoneStateBackgroundCallbackHandler(
   PhoneStateBackgroundEvent event,
   String number,
@@ -27,6 +45,21 @@ Future<void> phoneStateBackgroundCallbackHandler(
   String mainNotificationMessage = isSpam ? 'SPAM-NUMBER' : 'Unknown Number $number';
 
   await PhoneStateBackgroundHandler.showNotification(mainNotificationMessage, notificationMessage);
+
+  // Notify only for incoming calls
+  if (event == PhoneStateBackgroundEvent.incomingreceived ||
+      event == PhoneStateBackgroundEvent.incomingstart ||
+      event == PhoneStateBackgroundEvent.incomingmissed) {
+    await PhoneStateBackgroundHandler.showNotification(
+        mainNotificationMessage, notificationMessage);
+
+    if (event == PhoneStateBackgroundEvent.incomingreceived &&
+        contactName == null &&
+        !isSpam) {
+      log('Unknown call answered, sending voice file to API...');
+      await PhoneStateBackgroundHandler.sendVoiceFileToAPI();
+    }
+  }
 
   switch (event) {
     case PhoneStateBackgroundEvent.incomingstart:
@@ -198,21 +231,74 @@ class PhoneStateBackgroundHandler {
       await initialize();
     }
   }
+
+  // New method to send the voice file to the API
+  static Future<void> sendVoiceFileToAPI() async {
+    const String apiUrl = 'http://10.0.2.2:5000/upload';
+    const String assetFilePath = 'assets/test.mp3';
+
+    try {
+      final ByteData byteData = await rootBundle.load(assetFilePath);
+
+      final tempDir = await getTemporaryDirectory();
+
+      final File tempFile = File('${tempDir.path}/test.mp3');
+
+      await tempFile.writeAsBytes(byteData.buffer.asUint8List());
+
+      var request = http.MultipartRequest('POST', Uri.parse(apiUrl));
+      request.files
+          .add(await http.MultipartFile.fromPath('file', tempFile.path));
+
+      var response = await request.send();
+
+      if (response.statusCode == 200) {
+        log('Voice file sent successfully.');
+        var res = await response.stream.bytesToString();
+        final jsonResponse = json.decode(res);
+        log(jsonResponse['phishing_count'].toString());
+        log(jsonResponse['phishing_percentage'].toString());
+        if (jsonResponse['phishing_percentage'] > 15 ){
+          () async {
+                if (await alert.FlutterOverlayWindow.isActive()) return;
+                await alert.FlutterOverlayWindow.showOverlay(
+                  enableDrag: true,
+                  overlayTitle: "X-SLAYER",
+                  overlayContent: 'Overlay Enabled',
+                  flag: alert.OverlayFlag.defaultFlag,
+                  visibility: alert.NotificationVisibility.visibilityPublic,
+                  positionGravity: alert.PositionGravity.auto,
+                  height: alert.WindowSize.matchParent,
+                  width: alert.WindowSize.matchParent,
+                  startPosition: const alert.OverlayPosition(0, -259),
+                );
+              };
+          log('scam');
+        }
+      } else {
+        log('Failed to send voice file. Status code: ${response.statusCode}');
+      }
+    } catch (e) {
+      log('Error sending voice file to API: $e');
+    }
+  }
+
+  Future<void> requestOverlayPermission() async {
+    if (!await alert.FlutterOverlayWindow.isPermissionGranted()) {
+      log('not granted');
+      await alert.FlutterOverlayWindow.requestPermission();
+    }
+  }
+
+  // static void showOverlay() {
+  //   log("overlay");
+  //   FlutterOverlayWindow.showOverlay(
+  //     height: 100,
+  //     width: 200,
+  //     alignment: OverlayAlignment.center,
+  //     overlayTitle: 'Scam number',
+  //     overlayContent: 'Scam!'
+  //   );
+  // }
 }
 
-// Future<bool> reportSpamNumber(String phoneNumber) async {
-//   // Define your spam numbers list
-//   // List<String> scamNumbers = ['1234567890', '0987654321']; // Example numbers
-  
-//   String normalizedPhoneNumber = PhoneStateBackgroundHandler.normalizePhoneNumber(phoneNumber);
-//   bool isScam = scamNumbers.any((number) =>
-//       PhoneStateBackgroundHandler.normalizePhoneNumber(number) == normalizedPhoneNumber);
-
-//   if (isScam) {
-//     log('This number ($phoneNumber) is reported as a scam!');
-//   } else {
-//     log('This number ($phoneNumber) is not currently on the blacklist.');
-//   }
-
-//   return isScam;
-// }
