@@ -1,9 +1,20 @@
+import 'package:cdac_design/alert_box.dart';
 import 'package:cdac_design/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'phone_state_background_handler.dart';
 
 void main(){
   runApp(const MyApp());
+}
+@pragma('vm:entry-point')
+void overlayMain() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: AlertBoxSection(),
+    ),
+  );
 }
 
 class MyApp extends StatefulWidget {
