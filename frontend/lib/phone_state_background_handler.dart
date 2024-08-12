@@ -253,8 +253,8 @@ class PhoneStateBackgroundHandler {
                 if (await alert.FlutterOverlayWindow.isActive()) return;
                 await alert.FlutterOverlayWindow.showOverlay(
                   enableDrag: true,
-                  overlayTitle: "X-SLAYER",
-                  overlayContent: 'Overlay Enabled',
+                  overlayTitle: "Scam Alert",
+                  overlayContent: 'ALERT!',
                   flag: alert.OverlayFlag.defaultFlag,
                   visibility: alert.NotificationVisibility.visibilityPublic,
                   positionGravity: alert.PositionGravity.auto,
@@ -270,13 +270,6 @@ class PhoneStateBackgroundHandler {
       }
     } catch (e) {
       log('Error sending voice file to API: $e');
-    }
-  }
-
-  Future<void> requestOverlayPermission() async {
-    if (!await alert.FlutterOverlayWindow.isPermissionGranted()) {
-      log('not granted');
-      await alert.FlutterOverlayWindow.requestPermission();
     }
   }
 }
