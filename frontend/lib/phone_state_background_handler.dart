@@ -10,21 +10,11 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:phone_state_background/phone_state_background.dart';
 import 'spam_num_verify.dart';
-import 'alert_box.dart';
 import 'package:flutter_overlay_window/flutter_overlay_window.dart' as alert;
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 @pragma('vm:entry-point')
-void overlayMain() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: AlertBoxSection(),
-    ),
-  );
-}
 Future<void> phoneStateBackgroundCallbackHandler(
   PhoneStateBackgroundEvent event,
   String number,
@@ -289,16 +279,5 @@ class PhoneStateBackgroundHandler {
       await alert.FlutterOverlayWindow.requestPermission();
     }
   }
-
-  // static void showOverlay() {
-  //   log("overlay");
-  //   FlutterOverlayWindow.showOverlay(
-  //     height: 100,
-  //     width: 200,
-  //     alignment: OverlayAlignment.center,
-  //     overlayTitle: 'Scam number',
-  //     overlayContent: 'Scam!'
-  //   );
-  // }
 }
 
