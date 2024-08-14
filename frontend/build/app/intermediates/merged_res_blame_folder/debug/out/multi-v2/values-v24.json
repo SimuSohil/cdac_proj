@@ -4,7 +4,7 @@
             "outputFile": "com.example.cdac_design.app-mergeDebugResources-26:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/simusohil/.gradle/caches/transforms-3/f0e2a8f4847187f7a6be5166c22676ab/transformed/media-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
