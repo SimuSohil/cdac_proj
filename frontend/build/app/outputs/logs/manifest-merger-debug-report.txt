@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:14:5-56:19
+INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:17:5-59:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:15:5-16:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:15:5-16:19
 MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
@@ -18,24 +20,29 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simu
 	android:name
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
-MERGED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
+MERGED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
 MERGED from [:call_log] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/call_log/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-24:12
 MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_sound] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:permission_handler_android] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:phone_state] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:phone_state_background] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state_background/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/3e695e2de354d182ac758be61e7f4118/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/518368b3492abd0da5fabfac0485263e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/4a75de9baee5832986101aad89e1abbe/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/75cb33d97e4d07189fd17a316bda12c9/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/33ffda7dbacf2e9f56610e54a5ba299c/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/517d5bc2a87c577976719f886a2c84da/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6c0c3bff584b61f0816eda5415c23046/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -47,6 +54,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a3239c0ac04109b57302bb71ad7b513b/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/11b7ad9632fb6be2706fec8bca4cb594/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/485c9f62a1850e8863d447205d3df290/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/8b10f573bff213548f8eac65dd444272/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/4ecbc82ffacadbb4a068eda62f4c9f37/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/9804338b616efa9b017b4395e52a6c1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
@@ -54,9 +63,10 @@ MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/cach
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/beeff2df297dfde5c998311e095e3383/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/8e79463f35a0fc32e888fc9e5204c645/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/a90a5c0d1110f83aec4e8264f050cf5d/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a0ecbd406870c002796c9b4aeb1b5186/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/b8ab76833b5222331a2c74676e9db871/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/4bbc5063b50faba0a8dd7e25735aaef2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -64,15 +74,15 @@ INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-65:12
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:1-68:12
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -120,22 +130,38 @@ uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
 ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:12:5-89
 	android:name
 		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:12:22-86
-queries
-ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:58:5-63:15
-MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-22:15
-MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-22:15
-MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
-MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
-intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:59:9-62:18
-action#android.intent.action.PROCESS_TEXT
-ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:60:13-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:60:21-70
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:13:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:14:5-80
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:13:5-80
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:15:22-78
+queries
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:61:5-66:15
+MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-22:15
+MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-22:15
+MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+MERGED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:62:9-65:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:63:13-72
+	android:name
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:63:21-70
 data
-ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:61:13-50
+ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:64:13-50
 	android:mimeType
-		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:61:19-48
+		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:64:19-48
 uses-sdk
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
@@ -152,6 +178,8 @@ MERGED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac
 MERGED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_sound] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_sound] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:permission_handler_android] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -160,12 +188,20 @@ MERGED from [:phone_state] /Users/simusohil/Developer/Internship/cdac_design/fro
 MERGED from [:phone_state] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:phone_state_background] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state_background/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:phone_state_background] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state_background/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/3e695e2de354d182ac758be61e7f4118/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/3e695e2de354d182ac758be61e7f4118/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/518368b3492abd0da5fabfac0485263e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
 MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/518368b3492abd0da5fabfac0485263e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/4a75de9baee5832986101aad89e1abbe/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/4a75de9baee5832986101aad89e1abbe/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/75cb33d97e4d07189fd17a316bda12c9/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/75cb33d97e4d07189fd17a316bda12c9/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/33ffda7dbacf2e9f56610e54a5ba299c/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/33ffda7dbacf2e9f56610e54a5ba299c/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/517d5bc2a87c577976719f886a2c84da/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
@@ -188,6 +224,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/sim
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a3239c0ac04109b57302bb71ad7b513b/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/11b7ad9632fb6be2706fec8bca4cb594/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/11b7ad9632fb6be2706fec8bca4cb594/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/485c9f62a1850e8863d447205d3df290/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/485c9f62a1850e8863d447205d3df290/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/8b10f573bff213548f8eac65dd444272/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/8b10f573bff213548f8eac65dd444272/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/4ecbc82ffacadbb4a068eda62f4c9f37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/4ecbc82ffacadbb4a068eda62f4c9f37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
@@ -202,12 +242,14 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/ca
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/beeff2df297dfde5c998311e095e3383/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/beeff2df297dfde5c998311e095e3383/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/8e79463f35a0fc32e888fc9e5204c645/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/8e79463f35a0fc32e888fc9e5204c645/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/a90a5c0d1110f83aec4e8264f050cf5d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/a90a5c0d1110f83aec4e8264f050cf5d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a0ecbd406870c002796c9b4aeb1b5186/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a0ecbd406870c002796c9b4aeb1b5186/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/b8ab76833b5222331a2c74676e9db871/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/b8ab76833b5222331a2c74676e9db871/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/4bbc5063b50faba0a8dd7e25735aaef2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
@@ -258,8 +300,20 @@ ADDED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/
 		ADDED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:12:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:12:5-68
 	android:name
 		ADDED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:9.11.2] /Users/simusohil/.gradle/caches/transforms-3/6476b303d795b924fff335f1ae1efbe3/transformed/jetified-flutter_sound_core-9.11.2/AndroidManifest.xml:11:22-65
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media:media:1.4.1] /Users/simusohil/.gradle/caches/transforms-3/544f02f7e2ce8edab57f7ae57a638f2b/transformed/media-1.4.1/AndroidManifest.xml:26:21-76
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
 	android:required

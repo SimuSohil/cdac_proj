@@ -1,3 +1,4 @@
+import 'package:cdac_design/bottomNavBar/audio_record.dart';
 import 'package:cdac_design/bottomNavBar/call_logs.dart';
 import 'package:cdac_design/bottomNavBar/contacts.dart';
 import 'package:cdac_design/bottomNavBar/vishing_data.dart';
@@ -18,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     const VishingPage(),
     const CallLogsScreen(),
     const ContactsPage(),
+    const AudioRecordScreen()
   ];
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
@@ -77,6 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
           TabItem(icon: Icon(Icons.dangerous_outlined), title: 'Vishing Threats'),
           TabItem(icon: Icon(Icons.call), title: 'Call Logs'),
           TabItem(icon: Icon(Icons.contacts_rounded), title: 'Contacts'),
+          TabItem(icon: Icon(Icons.keyboard_voice), title: 'Record'),
           // TabItem(icon: Icon(Icons.settings), title: 'Settings'),
         ],
         onTap: (int index) {
