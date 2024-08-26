@@ -6,16 +6,6 @@ import 'phone_state_background_handler.dart';
 void main(){
   runApp(const MyApp());
 }
-@pragma('vm:entry-point')
-// void overlayMain() {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   runApp(
-//     const MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       home: AlertBoxSection(),
-//     ),
-//   );
-// }
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
