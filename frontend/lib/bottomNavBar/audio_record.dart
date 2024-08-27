@@ -16,10 +16,11 @@ class _AudioRecordScreenState extends State<AudioRecordScreen> {
   final FlutterSoundRecorder _recorder = FlutterSoundRecorder();
   String? _filePath;
   bool _isRecording = false;
-  bool _isRecorderInitialized= false;
+  bool _isRecorderInitialized = false;
+  String _statusMessage = '';
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
     _initializeRecorder();
     _requestPermission();
@@ -36,37 +37,36 @@ class _AudioRecordScreenState extends State<AudioRecordScreen> {
     PermissionStatus microphoneStatus = await Permission.microphone.request();
     PermissionStatus audioStorageStatus = await Permission.storage.request();
 
-    if(microphoneStatus.isGranted && audioStorageStatus.isGranted){
-      log('Microphone and Storage permissions granted');
+    if (Platform.isAndroid && await Permission.manageExternalStorage.isDenied) {
+      audioStorageStatus = await Permission.manageExternalStorage.request();
     }
-    else {
+
+    if (microphoneStatus.isGranted && audioStorageStatus.isGranted) {
+      log('Microphone and Storage permissions granted');
+    } else {
       log('Microphone and/or storage permission denied');
     }
   }
 
   Future<void> _startRecording() async {
     if (_isRecorderInitialized) {
-      // Get the list of external storage directories
-      List<Directory>? musicDirs = await getExternalStorageDirectories(type: StorageDirectory.music);
-      if (musicDirs != null && musicDirs.isNotEmpty) {
-        // Use the first directory in the list
-        String musicPath = musicDirs[0].path; // Path to the Music folder
-        // Create the Music directory if it doesn't exist
-        Directory(musicPath).createSync(recursive: true);
-        _filePath = '$musicPath/audio_recording_${DateTime.now().millisecondsSinceEpoch}.aac'; 
-        await _recorder.startRecorder(
-          toFile: _filePath,
-          codec: Codec.aacADTS, // You can choose different codecs
-        );
-        setState(() {
-          _isRecording = true;
-        });
-      } else {
-        log('No music directory found');
-      }
+      Directory appDir = await getApplicationDocumentsDirectory(); // App-specific directory
+      String audioDir = '${appDir.path}/audio_recordings';
+      Directory(audioDir).createSync(recursive: true);
+      _filePath = '$audioDir/audio_recording_${DateTime.now().millisecondsSinceEpoch}.aac';
+      await _recorder.startRecorder(
+        toFile: _filePath,
+        codec: Codec.aacADTS, // You can choose different codecs
+      );
+      setState(() {
+        _isRecording = true;
+        _statusMessage = 'Recording started...';
+      });
     } else {
-      // Handle the case when the recorder is not initialized
       log('Recorder is not initialized');
+      setState(() {
+        _statusMessage = 'Recorder is not initialized';
+      });
     }
   }
 
@@ -74,11 +74,13 @@ class _AudioRecordScreenState extends State<AudioRecordScreen> {
     await _recorder.stopRecorder();
     setState(() {
       _isRecording = false;
+      _statusMessage = 'Recording stopped. File saved at: $_filePath';
     });
   }
 
-   @override
+  @override
   void dispose() {
+    _recorder.closeRecorder();
     super.dispose();
   }
 
@@ -100,10 +102,9 @@ class _AudioRecordScreenState extends State<AudioRecordScreen> {
               onPressed: _isRecording ? _stopRecording : null,
               child: const Text('Stop Recording'),
             ),
-            if (_filePath != null) ...[
-              const SizedBox(height: 20),
-              Text('Recorded file: $_filePath'),
-            ],
+            const SizedBox(height: 20),
+            const SizedBox(height: 20),
+            Text(_statusMessage, style: const TextStyle(color: Colors.red)),
           ],
         ),
       ),
